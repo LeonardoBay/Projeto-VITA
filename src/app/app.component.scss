@@ -1,0 +1,68 @@
+// --------------------------------------HEADER ------------------------------
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#vita {
+    font-family: 'Purple Purse', serif;
+    color: #5A0000
+}
+
+// ---------------------------- LOGIN ---------------------------------------------
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1 {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    color: white;
+    padding-top: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 10px;
+}
+
+
+
+.login p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.login > label > input {
+    border-radius: 20px;
+    width: 360px;
+    height: 35px;
+    background-color: #FFFEED;
+}
+
+
+//------------------------------------------------ MAIN ---------------------------------------
+
+main {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    background-color: #5A0000;
+    height: 86vh;
+}
